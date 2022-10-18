@@ -28,7 +28,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'https://github.com/petrugiurca/docker-compose-jenkins-nexus.git';
+                    git 'https://github.com/danielalejandrohc/cargotracker.git';
                 }
             }
         }
